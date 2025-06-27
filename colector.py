@@ -10,9 +10,15 @@ import subprocess
 import hashlib
 import winreg
 from pathlib import Path
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from matplotlib.gridspec import GridSpec
+import pandas as pd
+import numpy as np
+from typing import List, Dict, Any
 
 class SecurityEnhancedSystemMonitor:
-    """System monitor with built-in security scanning capabilities"""
+    """System monitor with built-in security scanning capabilities and data visualization"""
     
     def __init__(self):
         print("🛡️ Security-Enhanced System Monitor Starting...")
@@ -23,6 +29,7 @@ class SecurityEnhancedSystemMonitor:
         
         # Set up data directory (relative to script location)
         self.data_dir = "data"
+        self.charts_dir = "charts"
         self.ensure_data_directory()
         
         self.data_log = []
@@ -44,16 +51,18 @@ class SecurityEnhancedSystemMonitor:
             return f"Unknown_Computer_{datetime.datetime.now().strftime('%Y%m%d')}"
     
     def ensure_data_directory(self):
-        """Create data directory if it doesn't exist"""
+        """Create data and charts directories if they don't exist"""
         try:
-            if not os.path.exists(self.data_dir):
-                os.makedirs(self.data_dir)
-                print(f"✅ Created data directory: {self.data_dir}")
-            else:
-                print(f"✅ Using existing data directory: {self.data_dir}")
+            for directory in [self.data_dir, self.charts_dir]:
+                if not os.path.exists(directory):
+                    os.makedirs(directory)
+                    print(f"✅ Created directory: {directory}")
+                else:
+                    print(f"✅ Using existing directory: {directory}")
         except Exception as e:
-            print(f"❌ Error creating data directory: {e}")
+            print(f"❌ Error creating directories: {e}")
             self.data_dir = "."
+            self.charts_dir = "."
     
     def check_windows_defender_status(self):
         """Check Windows Defender status and last scan info"""
@@ -503,6 +512,334 @@ class SecurityEnhancedSystemMonitor:
         
         print("=" * 80)
     
+    def load_data_from_files(self, computer_name=None):
+        """Load historical data from CSV files for visualization"""
+        if computer_name is None:
+            computer_name = self.computer_name
+        
+        # Try to find CSV files for this computer
+        csv_files = []
+        for file in os.listdir(self.data_dir):
+            if file.endswith('.csv') and computer_name in file:
+                csv_files.append(os.path.join(self.data_dir, file))
+        
+        if not csv_files:
+            print(f"❌ No CSV files found for computer: {computer_name}")
+            return None
+        
+        # Load and combine data from all CSV files
+        all_data = []
+        for csv_file in csv_files:
+            try:
+                df = pd.read_csv(csv_file)
+                all_data.append(df)
+                print(f"📊 Loaded {len(df)} records from {os.path.basename(csv_file)}")
+            except Exception as e:
+                print(f"⚠️  Error loading {csv_file}: {e}")
+        
+        if not all_data:
+            return None
+        
+        # Combine all data
+        combined_df = pd.concat(all_data, ignore_index=True)
+        
+        # Convert timestamp to datetime
+        try:
+            combined_df['timestamp'] = pd.to_datetime(combined_df['timestamp'])
+        except Exception as e:
+            print(f"⚠️  Error parsing timestamps: {e}")
+            return None
+        
+        # Sort by timestamp
+        combined_df = combined_df.sort_values('timestamp')
+        
+        print(f"✅ Loaded total of {len(combined_df)} records for visualization")
+        return combined_df
+    
+    def create_comprehensive_charts(self, computer_name=None, save_individual=True):
+        """Create comprehensive charts showing system changes over time"""
+        try:
+            import matplotlib.pyplot as plt
+            import matplotlib.dates as mdates
+            from matplotlib.gridspec import GridSpec
+        except ImportError:
+            print("❌ Matplotlib not installed. Please install it with: pip install matplotlib pandas")
+            return
+        
+        if computer_name is None:
+            computer_name = self.computer_name
+        
+        # Load data
+        df = self.load_data_from_files(computer_name)
+        if df is None or len(df) < 2:
+            print("❌ Insufficient data for visualization. Need at least 2 data points.")
+            return
+        
+        print(f"📈 Creating comprehensive charts for {computer_name}...")
+        
+        # Set up the plot style
+        plt.style.use('default')
+        
+        # Create timestamp for filenames
+        timestamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
+        
+        # 1. Create Dashboard Overview (all metrics in one chart)
+        fig = plt.figure(figsize=(20, 12))
+        fig.suptitle(f'System Performance Dashboard - {computer_name}', fontsize=16, fontweight='bold')
+        
+        gs = GridSpec(3, 3, figure=fig, hspace=0.3, wspace=0.3)
+        
+        # CPU Usage
+        ax1 = fig.add_subplot(gs[0, 0])
+        if 'cpu_percent' in df.columns:
+            ax1.plot(df['timestamp'], df['cpu_percent'], color='#ff6b6b', linewidth=2, label='CPU Usage')
+            ax1.fill_between(df['timestamp'], df['cpu_percent'], alpha=0.3, color='#ff6b6b')
+            ax1.set_title('CPU Usage (%)', fontweight='bold')
+            ax1.set_ylabel('Percentage')
+            ax1.grid(True, alpha=0.3)
+            ax1.set_ylim(0, 100)
+        
+        # Memory Usage
+        ax2 = fig.add_subplot(gs[0, 1])
+        if 'memory_percent' in df.columns:
+            ax2.plot(df['timestamp'], df['memory_percent'], color='#4ecdc4', linewidth=2, label='Memory Usage')
+            ax2.fill_between(df['timestamp'], df['memory_percent'], alpha=0.3, color='#4ecdc4')
+            ax2.set_title('Memory Usage (%)', fontweight='bold')
+            ax2.set_ylabel('Percentage')
+            ax2.grid(True, alpha=0.3)
+            ax2.set_ylim(0, 100)
+        
+        # Disk Usage
+        ax3 = fig.add_subplot(gs[0, 2])
+        if 'disk_percent' in df.columns:
+            ax3.plot(df['timestamp'], df['disk_percent'], color='#45b7d1', linewidth=2, label='Disk Usage')
+            ax3.fill_between(df['timestamp'], df['disk_percent'], alpha=0.3, color='#45b7d1')
+            ax3.set_title('Disk Usage (%)', fontweight='bold')
+            ax3.set_ylabel('Percentage')
+            ax3.grid(True, alpha=0.3)
+            ax3.set_ylim(0, 100)
+        
+        # Security Score
+        ax4 = fig.add_subplot(gs[1, 0])
+        if 'security_score' in df.columns:
+            ax4.plot(df['timestamp'], df['security_score'], color='#96ceb4', linewidth=2, marker='o', markersize=4)
+            ax4.fill_between(df['timestamp'], df['security_score'], alpha=0.3, color='#96ceb4')
+            ax4.set_title('Security Score', fontweight='bold')
+            ax4.set_ylabel('Score (0-100)')
+            ax4.grid(True, alpha=0.3)
+            ax4.set_ylim(0, 100)
+        
+        # Process Count
+        ax5 = fig.add_subplot(gs[1, 1])
+        if 'process_count' in df.columns:
+            ax5.plot(df['timestamp'], df['process_count'], color='#feca57', linewidth=2)
+            ax5.fill_between(df['timestamp'], df['process_count'], alpha=0.3, color='#feca57')
+            ax5.set_title('Process Count', fontweight='bold')
+            ax5.set_ylabel('Number of Processes')
+            ax5.grid(True, alpha=0.3)
+        
+        # Network Activity
+        ax6 = fig.add_subplot(gs[1, 2])
+        if 'network_sent_mb' in df.columns and 'network_recv_mb' in df.columns:
+            ax6.plot(df['timestamp'], df['network_sent_mb'], color='#ff9ff3', linewidth=2, label='Sent (MB)')
+            ax6.plot(df['timestamp'], df['network_recv_mb'], color='#54a0ff', linewidth=2, label='Received (MB)')
+            ax6.set_title('Network Activity', fontweight='bold')
+            ax6.set_ylabel('MB')
+            ax6.legend()
+            ax6.grid(True, alpha=0.3)
+        
+        # Temperature (if available)
+        ax7 = fig.add_subplot(gs[2, 0])
+        if 'temperature' in df.columns and not df['temperature'].isna().all():
+            valid_temp = df.dropna(subset=['temperature'])
+            if len(valid_temp) > 0:
+                ax7.plot(valid_temp['timestamp'], valid_temp['temperature'], color='#ff6348', linewidth=2)
+                ax7.fill_between(valid_temp['timestamp'], valid_temp['temperature'], alpha=0.3, color='#ff6348')
+                ax7.set_title('Temperature (°C)', fontweight='bold')
+                ax7.set_ylabel('Celsius')
+                ax7.grid(True, alpha=0.3)
+            else:
+                ax7.text(0.5, 0.5, 'No Temperature Data', ha='center', va='center', transform=ax7.transAxes)
+                ax7.set_title('Temperature (°C)', fontweight='bold')
+        else:
+            ax7.text(0.5, 0.5, 'No Temperature Data', ha='center', va='center', transform=ax7.transAxes)
+            ax7.set_title('Temperature (°C)', fontweight='bold')
+        
+        # Uptime
+        ax8 = fig.add_subplot(gs[2, 1])
+        if 'uptime_hours' in df.columns:
+            uptime_days = df['uptime_hours'] / 24
+            ax8.plot(df['timestamp'], uptime_days, color='#a55eea', linewidth=2)
+            ax8.fill_between(df['timestamp'], uptime_days, alpha=0.3, color='#a55eea')
+            ax8.set_title('System Uptime (Days)', fontweight='bold')
+            ax8.set_ylabel('Days')
+            ax8.grid(True, alpha=0.3)
+        
+        # Security Issues Count
+        ax9 = fig.add_subplot(gs[2, 2])
+        if 'suspicious_activity_count' in df.columns and 'vulnerability_count' in df.columns:
+            ax9.plot(df['timestamp'], df['suspicious_activity_count'], color='#ff4757', linewidth=2, marker='o', markersize=4, label='Suspicious Activity')
+            ax9.plot(df['timestamp'], df['vulnerability_count'], color='#ff6348', linewidth=2, marker='s', markersize=4, label='Vulnerabilities')
+            ax9.set_title('Security Issues Count', fontweight='bold')
+            ax9.set_ylabel('Count')
+            ax9.legend()
+            ax9.grid(True, alpha=0.3)
+        
+        # Format x-axis for all subplots
+        for ax in [ax1, ax2, ax3, ax4, ax5, ax6, ax7, ax8, ax9]:
+            ax.xaxis.set_major_formatter(mdates.DateFormatter('%m-%d %H:%M'))
+            ax.xaxis.set_major_locator(mdates.HourLocator(interval=max(1, len(df)//10)))
+            plt.setp(ax.xaxis.get_majorticklabels(), rotation=45, ha='right')
+        
+        # Save dashboard
+        dashboard_file = os.path.join(self.charts_dir, f"dashboard_{computer_name}_{timestamp}.png")
+        plt.tight_layout()
+        plt.savefig(dashboard_file, dpi=300, bbox_inches='tight')
+        plt.close()
+        print(f"📊 Dashboard saved: {dashboard_file}")
+        
+        # 2. Create individual detailed charts if requested
+        if save_individual:
+            self._create_individual_charts(df, computer_name, timestamp)
+        
+        # 3. Create Security-focused chart
+        self._create_security_chart(df, computer_name, timestamp)
+        
+        print(f"✅ All charts created successfully for {computer_name}")
+        print(f"📁 Charts saved in: {self.charts_dir}")
+    
+    def _create_individual_charts(self, df, computer_name, timestamp):
+        """Create individual detailed charts for each metric"""
+        
+        # CPU Usage detailed chart
+        if 'cpu_percent' in df.columns:
+            plt.figure(figsize=(12, 6))
+            plt.plot(df['timestamp'], df['cpu_percent'], color='#ff6b6b', linewidth=2, marker='o', markersize=3)
+            plt.fill_between(df['timestamp'], df['cpu_percent'], alpha=0.3, color='#ff6b6b')
+            plt.title(f'CPU Usage Over Time - {computer_name}', fontsize=14, fontweight='bold')
+            plt.xlabel('Time')
+            plt.ylabel('CPU Usage (%)')
+            plt.grid(True, alpha=0.3)
+            plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%m-%d %H:%M'))
+            plt.gca().xaxis.set_major_locator(mdates.HourLocator(interval=max(1, len(df)//10)))
+            plt.xticks(rotation=45)
+            plt.ylim(0, 100)
+            plt.tight_layout()
+            cpu_file = os.path.join(self.charts_dir, f"cpu_usage_{computer_name}_{timestamp}.png")
+            plt.savefig(cpu_file, dpi=300, bbox_inches='tight')
+            plt.close()
+            print(f"📈 CPU chart saved: {cpu_file}")
+        
+        # Memory Usage detailed chart
+        if 'memory_percent' in df.columns and 'memory_used_gb' in df.columns and 'memory_total_gb' in df.columns:
+            fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 8))
+            
+            # Memory percentage
+            ax1.plot(df['timestamp'], df['memory_percent'], color='#4ecdc4', linewidth=2, marker='o', markersize=3)
+            ax1.fill_between(df['timestamp'], df['memory_percent'], alpha=0.3, color='#4ecdc4')
+            ax1.set_title(f'Memory Usage - {computer_name}', fontsize=14, fontweight='bold')
+            ax1.set_ylabel('Memory Usage (%)')
+            ax1.grid(True, alpha=0.3)
+            ax1.set_ylim(0, 100)
+            
+            # Memory GB
+            ax2.plot(df['timestamp'], df['memory_used_gb'], color='#4ecdc4', linewidth=2, marker='o', markersize=3, label='Used')
+            ax2.plot(df['timestamp'], df['memory_total_gb'], color='#95a5a6', linewidth=2, linestyle='--', label='Total')
+            ax2.fill_between(df['timestamp'], df['memory_used_gb'], alpha=0.3, color='#4ecdc4')
+            ax2.set_xlabel('Time')
+            ax2.set_ylabel('Memory (GB)')
+            ax2.legend()
+            ax2.grid(True, alpha=0.3)
+            
+            # Format x-axis
+            for ax in [ax1, ax2]:
+                ax.xaxis.set_major_formatter(mdates.DateFormatter('%m-%d %H:%M'))
+                ax.xaxis.set_major_locator(mdates.HourLocator(interval=max(1, len(df)//10)))
+                plt.setp(ax.xaxis.get_majorticklabels(), rotation=45, ha='right')
+            
+            plt.tight_layout()
+            memory_file = os.path.join(self.charts_dir, f"memory_usage_{computer_name}_{timestamp}.png")
+            plt.savefig(memory_file, dpi=300, bbox_inches='tight')
+            plt.close()
+            print(f"🧠 Memory chart saved: {memory_file}")
+    
+    def _create_security_chart(self, df, computer_name, timestamp):
+        """Create a detailed security-focused chart"""
+        security_columns = ['security_score', 'antivirus_enabled', 'real_time_protection', 
+                           'suspicious_activity_count', 'vulnerability_count']
+        
+        # Check if we have security data
+        has_security_data = any(col in df.columns for col in security_columns)
+        
+        if not has_security_data:
+            print("⚠️  No security data found for security chart")
+            return
+        
+        fig, axes = plt.subplots(2, 2, figsize=(15, 10))
+        fig.suptitle(f'Security Analysis - {computer_name}', fontsize=16, fontweight='bold')
+        
+        # Security Score
+        if 'security_score' in df.columns:
+            axes[0,0].plot(df['timestamp'], df['security_score'], color='#27ae60', linewidth=3, marker='o', markersize=4)
+            axes[0,0].fill_between(df['timestamp'], df['security_score'], alpha=0.3, color='#27ae60')
+            axes[0,0].set_title('Security Score Over Time', fontweight='bold')
+            axes[0,0].set_ylabel('Score (0-100)')
+            axes[0,0].grid(True, alpha=0.3)
+            axes[0,0].set_ylim(0, 100)
+            
+            # Add colored zones
+            axes[0,0].axhspan(0, 60, alpha=0.1, color='red', label='Poor')
+            axes[0,0].axhspan(60, 75, alpha=0.1, color='orange', label='Fair')
+            axes[0,0].axhspan(75, 90, alpha=0.1, color='yellow', label='Good')
+            axes[0,0].axhspan(90, 100, alpha=0.1, color='green', label='Excellent')
+        
+        # Protection Status
+        if 'antivirus_enabled' in df.columns and 'real_time_protection' in df.columns:
+            # Convert boolean to numeric for plotting
+            av_numeric = df['antivirus_enabled'].astype(int)
+            rt_numeric = df['real_time_protection'].astype(int)
+            
+            axes[0,1].plot(df['timestamp'], av_numeric, color='#3498db', linewidth=2, marker='o', markersize=4, label='Antivirus')
+            axes[0,1].plot(df['timestamp'], rt_numeric, color='#e74c3c', linewidth=2, marker='s', markersize=4, label='Real-time Protection')
+            axes[0,1].set_title('Protection Status', fontweight='bold')
+            axes[0,1].set_ylabel('Status (0=Off, 1=On)')
+            axes[0,1].set_ylim(-0.1, 1.1)
+            axes[0,1].legend()
+            axes[0,1].grid(True, alpha=0.3)
+        
+        # Threat Activity
+        if 'suspicious_activity_count' in df.columns and 'vulnerability_count' in df.columns:
+            axes[1,0].bar(df['timestamp'], df['suspicious_activity_count'], alpha=0.7, color='#e67e22', 
+                         width=0.8*(df['timestamp'].iloc[1] - df['timestamp'].iloc[0]) if len(df) > 1 else 1, 
+                         label='Suspicious Activity')
+            axes[1,0].bar(df['timestamp'], df['vulnerability_count'], alpha=0.7, color='#c0392b', 
+                         width=0.8*(df['timestamp'].iloc[1] - df['timestamp'].iloc[0]) if len(df) > 1 else 1,
+                         bottom=df['suspicious_activity_count'], label='Vulnerabilities')
+            axes[1,0].set_title('Security Issues Detected', fontweight='bold')
+            axes[1,0].set_ylabel('Count')
+            axes[1,0].legend()
+            axes[1,0].grid(True, alpha=0.3)
+        
+        # Security Software Count
+        if 'security_software_count' in df.columns:
+            axes[1,1].plot(df['timestamp'], df['security_software_count'], color='#8e44ad', linewidth=2, marker='o', markersize=4)
+            axes[1,1].fill_between(df['timestamp'], df['security_software_count'], alpha=0.3, color='#8e44ad')
+            axes[1,1].set_title('Security Software Running', fontweight='bold')
+            axes[1,1].set_ylabel('Count')
+            axes[1,1].grid(True, alpha=0.3)
+        
+        # Format x-axis for all subplots
+        for ax in axes.flat:
+            ax.xaxis.set_major_formatter(mdates.DateFormatter('%m-%d %H:%M'))
+            ax.xaxis.set_major_locator(mdates.HourLocator(interval=max(1, len(df)//10)))
+            plt.setp(ax.xaxis.get_majorticklabels(), rotation=45, ha='right')
+        
+        plt.tight_layout()
+        security_file = os.path.join(self.charts_dir, f"security_analysis_{computer_name}_{timestamp}.png")
+        plt.savefig(security_file, dpi=300, bbox_inches='tight')
+        plt.close()
+        print(f"🛡️  Security chart saved: {security_file}")
+    
     def save_continuous_data(self):
         """Save data with security information to files"""
         if not self.data_log:
@@ -679,26 +1016,28 @@ class SecurityEnhancedSystemMonitor:
         print("=" * 60)
 
 def main():
-    """Main function for security-enhanced monitoring"""
+    """Main function for security-enhanced monitoring with visualization"""
     monitor = SecurityEnhancedSystemMonitor()
     
     while True:
-        print(f"\n🛡️ Security-Enhanced System Monitor")
+        print(f"\n🛡️ Security-Enhanced System Monitor with Data Visualization")
         print(f"🖥️  Computer: {monitor.computer_name}")
         print(f"📁 Data Directory: {monitor.data_dir}")
-        print("=" * 70)
+        print(f"📊 Charts Directory: {monitor.charts_dir}")
+        print("=" * 80)
         
         print("\nWhat would you like to do?")
         print("1. 📊 Check current system status")
         print("2. 🔄 Collect data with security monitoring")
         print("3. 🔍 Run comprehensive security scan")
         print("4. 📈 Analyze collected data")
-        print("5. 💾 Save current session to files")
-        print("6. 📁 View data directory contents")
-        print("7. 🛡️ Security settings and configuration")
-        print("8. 🚪 Exit")
+        print("5. 📊 Create comprehensive charts and visualizations")
+        print("6. 💾 Save current session to files")
+        print("7. 📁 View data directory contents")
+        print("8. 🛡️ Security settings and configuration")
+        print("9. 🚪 Exit")
         
-        choice = input("\nEnter choice (1-8): ").strip()
+        choice = input("\nEnter choice (1-9): ").strip()
         
         if choice == '1':
             current_data = monitor.get_current_status()
@@ -758,6 +1097,46 @@ def main():
                     print("❌ No security scan data available in collected samples")
         
         elif choice == '5':
+            # Create comprehensive charts
+            print("\n📊 CHART CREATION OPTIONS")
+            print("1. Create charts for current computer")
+            print("2. Create charts for a specific computer")
+            print("3. List available computers")
+            
+            chart_choice = input("Enter choice (1-3): ").strip()
+            
+            if chart_choice == '1':
+                monitor.create_comprehensive_charts()
+            
+            elif chart_choice == '2':
+                computer_name = input("Enter computer name: ").strip()
+                if computer_name:
+                    monitor.create_comprehensive_charts(computer_name)
+                else:
+                    print("❌ Invalid computer name")
+            
+            elif chart_choice == '3':
+                # List available computers from CSV files
+                try:
+                    csv_files = [f for f in os.listdir(monitor.data_dir) if f.endswith('.csv')]
+                    computers = set()
+                    for csv_file in csv_files:
+                        # Extract computer name from filename
+                        parts = csv_file.replace('.csv', '').split('_')
+                        for i, part in enumerate(parts):
+                            if part == 'security' and i + 1 < len(parts):
+                                computers.add(parts[i + 1])
+                    
+                    if computers:
+                        print(f"\n📋 Available computers:")
+                        for computer in sorted(computers):
+                            print(f"   🖥️  {computer}")
+                    else:
+                        print("❌ No computer data files found")
+                except Exception as e:
+                    print(f"❌ Error listing computers: {e}")
+        
+        elif choice == '6':
             # Save timestamped files
             if not monitor.data_log:
                 print("❌ No data to save")
@@ -805,20 +1184,26 @@ def main():
                     
                     print(f"📊 Saved security summary to {csv_filename}")
                     
+                    # Ask if user wants to create charts
+                    create_charts = input("\nWould you like to create charts for this data? (y/n): ").strip().lower()
+                    if create_charts == 'y':
+                        monitor.create_comprehensive_charts()
+                    
                 except Exception as e:
                     print(f"❌ Error saving files: {e}")
         
-        elif choice == '6':
+        elif choice == '7':
             print(f"\n📁 Contents of {monitor.data_dir}:")
+            print(f"📊 Contents of {monitor.charts_dir}:")
             try:
-                files = os.listdir(monitor.data_dir)
-                if files:
-                    # Group security files
-                    security_files = [f for f in files if 'security' in f.lower()]
-                    other_files = [f for f in files if 'security' not in f.lower()]
+                # Data files
+                data_files = os.listdir(monitor.data_dir)
+                if data_files:
+                    security_files = [f for f in data_files if 'security' in f.lower()]
+                    other_files = [f for f in data_files if 'security' not in f.lower()]
                     
                     if security_files:
-                        print(f"\n   🛡️  Security Files:")
+                        print(f"\n   🛡️  Security Data Files:")
                         for file in sorted(security_files):
                             file_path = os.path.join(monitor.data_dir, file)
                             size = os.path.getsize(file_path)
@@ -826,18 +1211,33 @@ def main():
                             print(f"      📄 {file} ({size:,} bytes, {modified.strftime('%Y-%m-%d %H:%M')})")
                     
                     if other_files:
-                        print(f"\n   📊 Other Monitoring Files:")
+                        print(f"\n   📊 Other Data Files:")
                         for file in sorted(other_files):
                             file_path = os.path.join(monitor.data_dir, file)
                             size = os.path.getsize(file_path)
                             modified = datetime.datetime.fromtimestamp(os.path.getmtime(file_path))
                             print(f"      📄 {file} ({size:,} bytes, {modified.strftime('%Y-%m-%d %H:%M')})")
                 else:
-                    print("   📂 Directory is empty")
+                    print("   📂 Data directory is empty")
+                
+                # Chart files
+                if os.path.exists(monitor.charts_dir):
+                    chart_files = os.listdir(monitor.charts_dir)
+                    if chart_files:
+                        print(f"\n   📊 Chart Files:")
+                        for file in sorted(chart_files):
+                            if file.endswith(('.png', '.jpg', '.jpeg')):
+                                file_path = os.path.join(monitor.charts_dir, file)
+                                size = os.path.getsize(file_path)
+                                modified = datetime.datetime.fromtimestamp(os.path.getmtime(file_path))
+                                print(f"      🖼️  {file} ({size:,} bytes, {modified.strftime('%Y-%m-%d %H:%M')})")
+                    else:
+                        print("   📂 Charts directory is empty")
+                        
             except Exception as e:
-                print(f"   ❌ Error reading directory: {e}")
+                print(f"   ❌ Error reading directories: {e}")
         
-        elif choice == '7':
+        elif choice == '8':
             print(f"\n🛡️ SECURITY CONFIGURATION")
             print("=" * 50)
             print(f"Current scan interval: {monitor.security_scan_interval/60:.1f} minutes")
@@ -876,7 +1276,7 @@ def main():
             elif sub_choice == '4':
                 continue
         
-        elif choice == '8':
+        elif choice == '9':
             print("👋 Goodbye! Stay secure!")
             break
         
