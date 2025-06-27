@@ -1,0 +1,1051 @@
+[
+  {
+    "timestamp": "2025-06-27T18:06:35.873256",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 7.4,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.077510833740234,
+      "used_gb": 10.748584747314453,
+      "usage_percent": 67.9,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.042491912841796875,
+      "swap_percent": 0.4
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42670440673828,
+      "free_gb": 74.35356521606445,
+      "usage_percent": 75.27977306845676,
+      "read_bytes": 10668961280,
+      "write_bytes": 9973474304
+    },
+    "network": {
+      "bytes_sent": 27628025,
+      "bytes_received": 1536242705,
+      "packets_sent": 179753,
+      "packets_received": 1173025
+    },
+    "system": {
+      "process_count": 287,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.4464834948380788
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:07:36.894388",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 19.3,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.203639984130859,
+      "used_gb": 10.622455596923828,
+      "usage_percent": 67.1,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.06332778930664062,
+      "swap_percent": 0.6
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42670822143555,
+      "free_gb": 74.35356140136719,
+      "usage_percent": 75.27977433672388,
+      "read_bytes": 10670767616,
+      "write_bytes": 10047179776
+    },
+    "network": {
+      "bytes_sent": 28538235,
+      "bytes_received": 1558944507,
+      "packets_sent": 183586,
+      "packets_received": 1192007
+    },
+    "system": {
+      "process_count": 282,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.46343934959835476
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:08:38.037084",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 4.3,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.135242462158203,
+      "used_gb": 10.690853118896484,
+      "usage_percent": 67.6,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.06332778930664062,
+      "swap_percent": 0.6
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42671585083008,
+      "free_gb": 74.35355377197266,
+      "usage_percent": 75.27977687325811,
+      "read_bytes": 10674650624,
+      "write_bytes": 10067741184
+    },
+    "network": {
+      "bytes_sent": 29897001,
+      "bytes_received": 1575997645,
+      "packets_sent": 188399,
+      "packets_received": 1208263
+    },
+    "system": {
+      "process_count": 279,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.48041724112298756
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:09:39.060798",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 47.9,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 4.927364349365234,
+      "used_gb": 10.898731231689453,
+      "usage_percent": 68.9,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.06320571899414062,
+      "swap_percent": 0.6
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42671585083008,
+      "free_gb": 74.35355377197266,
+      "usage_percent": 75.27977687325811,
+      "read_bytes": 10699978240,
+      "write_bytes": 10078200832
+    },
+    "network": {
+      "bytes_sent": 30495209,
+      "bytes_received": 1582125693,
+      "packets_sent": 190581,
+      "packets_received": 1214736
+    },
+    "system": {
+      "process_count": 281,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.49736955887741513
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:10:40.084722",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 7.2,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 6.748325347900391,
+      "used_gb": 9.077770233154297,
+      "usage_percent": 57.4,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.08754730224609375,
+      "swap_percent": 0.9
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42671966552734,
+      "free_gb": 74.35354995727539,
+      "usage_percent": 75.27977814152524,
+      "read_bytes": 11292646400,
+      "write_bytes": 10683619328
+    },
+    "network": {
+      "bytes_sent": 31252360,
+      "bytes_received": 1591400293,
+      "packets_sent": 192844,
+      "packets_received": 1223098
+    },
+    "system": {
+      "process_count": 281,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.5143209708399242
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:11:41.110225",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 6.8,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 6.161472320556641,
+      "used_gb": 9.664623260498047,
+      "usage_percent": 61.1,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.08609771728515625,
+      "swap_percent": 0.9
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42671966552734,
+      "free_gb": 74.35354995727539,
+      "usage_percent": 75.27977814152524,
+      "read_bytes": 11803481088,
+      "write_bytes": 11398966272
+    },
+    "network": {
+      "bytes_sent": 31716668,
+      "bytes_received": 1596618195,
+      "packets_sent": 194270,
+      "packets_received": 1227990
+    },
+    "system": {
+      "process_count": 288,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.5362947715653313
+    },
+    "security": {
+      "scan_timestamp": "2025-06-27T18:11:42.143737",
+      "scan_duration_seconds": 18.07,
+      "antivirus_status": {
+        "antivirus_enabled": true,
+        "real_time_protection": true,
+        "last_scan_date": "2025-06-22T18:11:43.563469",
+        "last_scan_type": "Quick",
+        "threat_count": 0,
+        "definition_age_days": 0,
+        "security_center_status": "active"
+      },
+      "security_software": [
+        {
+          "process_name": "MsMpEng.exe",
+          "software_name": "Windows Defender",
+          "pid": 6492
+        }
+      ],
+      "suspicious_activity": [
+        {
+          "type": "high_cpu_usage",
+          "severity": "medium",
+          "processes": [
+            {
+              "name": "System Idle Process",
+              "pid": 0,
+              "cpu_percent": 721.4
+            }
+          ]
+        }
+      ],
+      "vulnerabilities": [
+        {
+          "type": "pending_windows_updates",
+          "severity": "medium",
+          "count": 2
+        },
+        {
+          "type": "many_open_ports",
+          "severity": "low",
+          "port_count": 13,
+          "sample_ports": [
+            135,
+            445,
+            1462,
+            2869,
+            5040,
+            5357,
+            7250,
+            49664,
+            49665,
+            49666
+          ]
+        }
+      ],
+      "security_score": 70
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:13:00.222498",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 40.7,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.643169403076172,
+      "used_gb": 10.182926177978516,
+      "usage_percent": 64.3,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.08425521850585938,
+      "swap_percent": 0.9
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.4267349243164,
+      "free_gb": 74.35353469848633,
+      "usage_percent": 75.27978321459373,
+      "read_bytes": 12689274880,
+      "write_bytes": 12058007552
+    },
+    "network": {
+      "bytes_sent": 33261208,
+      "bytes_received": 1602471556,
+      "packets_sent": 197405,
+      "packets_received": 1234871
+    },
+    "system": {
+      "process_count": 285,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.5532521410120859
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:14:01.274365",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 95.8,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.525413513183594,
+      "used_gb": 10.300682067871094,
+      "usage_percent": 65.1,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.08425521850585938,
+      "swap_percent": 0.9
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42675018310547,
+      "free_gb": 74.35351943969727,
+      "usage_percent": 75.27978828766221,
+      "read_bytes": 12722625536,
+      "write_bytes": 12565694464
+    },
+    "network": {
+      "bytes_sent": 34258262,
+      "bytes_received": 1615747776,
+      "packets_sent": 200136,
+      "packets_received": 1246630
+    },
+    "system": {
+      "process_count": 293,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.5703924684392081
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:15:04.079594",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 10.0,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.2165374755859375,
+      "used_gb": 10.60955810546875,
+      "usage_percent": 67.0,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.08397293090820312,
+      "swap_percent": 0.9
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42675018310547,
+      "free_gb": 74.35351943969727,
+      "usage_percent": 75.27978828766221,
+      "read_bytes": 12754746368,
+      "write_bytes": 13141351424
+    },
+    "network": {
+      "bytes_sent": 35073340,
+      "bytes_received": 1625428108,
+      "packets_sent": 202542,
+      "packets_received": 1255469
+    },
+    "system": {
+      "process_count": 281,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.5876553830835555
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:16:05.114669",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 3.5,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.53643798828125,
+      "used_gb": 10.289657592773438,
+      "usage_percent": 65.0,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.07781219389289618,
+      "swap_percent": 0.8
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42675399780273,
+      "free_gb": 74.353515625,
+      "usage_percent": 75.27978955592933,
+      "read_bytes": 12816318976,
+      "write_bytes": 13208468992
+    },
+    "network": {
+      "bytes_sent": 35370591,
+      "bytes_received": 1631349440,
+      "packets_sent": 203824,
+      "packets_received": 1260818
+    },
+    "system": {
+      "process_count": 282,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.6046063307258818
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:17:06.137532",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 6.0,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.138725280761719,
+      "used_gb": 10.687370300292969,
+      "usage_percent": 67.5,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.07781219389289618,
+      "swap_percent": 0.8
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42675399780273,
+      "free_gb": 74.353515625,
+      "usage_percent": 75.27978955592933,
+      "read_bytes": 12827070976,
+      "write_bytes": 13222326784
+    },
+    "network": {
+      "bytes_sent": 36066004,
+      "bytes_received": 1640713335,
+      "packets_sent": 206513,
+      "packets_received": 1269674
+    },
+    "system": {
+      "process_count": 283,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.6279593733946482
+    },
+    "security": {
+      "scan_timestamp": "2025-06-27T18:17:07.161860",
+      "scan_duration_seconds": 23.04,
+      "antivirus_status": {
+        "antivirus_enabled": true,
+        "real_time_protection": true,
+        "last_scan_date": "2025-06-22T18:17:08.626098",
+        "last_scan_type": "Quick",
+        "threat_count": 0,
+        "definition_age_days": 0,
+        "security_center_status": "active"
+      },
+      "security_software": [
+        {
+          "process_name": "MsMpEng.exe",
+          "software_name": "Windows Defender",
+          "pid": 6492
+        }
+      ],
+      "suspicious_activity": [
+        {
+          "type": "high_cpu_usage",
+          "severity": "medium",
+          "processes": [
+            {
+              "name": "System Idle Process",
+              "pid": 0,
+              "cpu_percent": 657.9
+            }
+          ]
+        }
+      ],
+      "vulnerabilities": [
+        {
+          "type": "pending_windows_updates",
+          "severity": "medium",
+          "count": 2
+        },
+        {
+          "type": "many_open_ports",
+          "severity": "low",
+          "port_count": 13,
+          "sample_ports": [
+            135,
+            445,
+            1462,
+            2869,
+            5040,
+            5357,
+            7250,
+            49664,
+            49665,
+            49666
+          ]
+        }
+      ],
+      "security_score": 70
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:18:30.211411",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 6.8,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.1804351806640625,
+      "used_gb": 10.645660400390625,
+      "usage_percent": 67.3,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.1015472412109375,
+      "swap_percent": 1.0
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.4267578125,
+      "free_gb": 74.35351181030273,
+      "usage_percent": 75.27979082419645,
+      "read_bytes": 12829335552,
+      "write_bytes": 13258867200
+    },
+    "network": {
+      "bytes_sent": 36874591,
+      "bytes_received": 1648490675,
+      "packets_sent": 208963,
+      "packets_received": 1277428
+    },
+    "system": {
+      "process_count": 284,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.6449127654896842
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:19:31.242770",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 17.4,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.642757415771484,
+      "used_gb": 10.183338165283203,
+      "usage_percent": 64.3,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.1010589599609375,
+      "swap_percent": 1.0
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.4267578125,
+      "free_gb": 74.35351181030273,
+      "usage_percent": 75.27979082419645,
+      "read_bytes": 12830277632,
+      "write_bytes": 13263193600
+    },
+    "network": {
+      "bytes_sent": 37072371,
+      "bytes_received": 1652193696,
+      "packets_sent": 209941,
+      "packets_received": 1280958
+    },
+    "system": {
+      "process_count": 282,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.66194223496649
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:20:32.557799",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 8.9,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.3433990478515625,
+      "used_gb": 10.482696533203125,
+      "usage_percent": 66.2,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.09900665283203125,
+      "swap_percent": 1.0
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.4267578125,
+      "free_gb": 74.35351181030273,
+      "usage_percent": 75.27979082419645,
+      "read_bytes": 12843970048,
+      "write_bytes": 13356815872
+    },
+    "network": {
+      "bytes_sent": 38889507,
+      "bytes_received": 1666600413,
+      "packets_sent": 214394,
+      "packets_received": 1295042
+    },
+    "system": {
+      "process_count": 279,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.6788967710733413
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:21:33.584854",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 5.8,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.188587188720703,
+      "used_gb": 10.637508392333984,
+      "usage_percent": 67.2,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.094573974609375,
+      "swap_percent": 1.0
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42676162719727,
+      "free_gb": 74.35350799560547,
+      "usage_percent": 75.27979209246357,
+      "read_bytes": 13275870208,
+      "write_bytes": 13398164480
+    },
+    "network": {
+      "bytes_sent": 40136002,
+      "bytes_received": 1672703406,
+      "packets_sent": 216603,
+      "packets_received": 1301211
+    },
+    "system": {
+      "process_count": 291,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.6958491548564699
+    },
+    "security": {
+      "cached": true
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:22:34.612082",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 7.2,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.232421875,
+      "used_gb": 10.593673706054688,
+      "usage_percent": 66.9,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.10327911376953125,
+      "swap_percent": 1.0
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42676162719727,
+      "free_gb": 74.35350799560547,
+      "usage_percent": 75.27979209246357,
+      "read_bytes": 13281448448,
+      "write_bytes": 13419004928
+    },
+    "network": {
+      "bytes_sent": 40899240,
+      "bytes_received": 1674859457,
+      "packets_sent": 218158,
+      "packets_received": 1304106
+    },
+    "system": {
+      "process_count": 287,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.7197910075717502
+    },
+    "security": {
+      "scan_timestamp": "2025-06-27T18:22:35.633359",
+      "scan_duration_seconds": 25.16,
+      "antivirus_status": {
+        "antivirus_enabled": true,
+        "real_time_protection": true,
+        "last_scan_date": "2025-06-22T18:22:36.862060",
+        "last_scan_type": "Quick",
+        "threat_count": 0,
+        "definition_age_days": 0,
+        "security_center_status": "active"
+      },
+      "security_software": [
+        {
+          "process_name": "MsMpEng.exe",
+          "software_name": "Windows Defender",
+          "pid": 6492
+        }
+      ],
+      "suspicious_activity": [
+        {
+          "type": "high_cpu_usage",
+          "severity": "medium",
+          "processes": [
+            {
+              "name": "System Idle Process",
+              "pid": 0,
+              "cpu_percent": 722.2
+            }
+          ]
+        }
+      ],
+      "vulnerabilities": [
+        {
+          "type": "pending_windows_updates",
+          "severity": "medium",
+          "count": 2
+        },
+        {
+          "type": "many_open_ports",
+          "severity": "low",
+          "port_count": 13,
+          "sample_ports": [
+            135,
+            445,
+            1462,
+            2869,
+            5040,
+            5357,
+            7250,
+            49664,
+            49665,
+            49666
+          ]
+        }
+      ],
+      "security_score": 70
+    }
+  },
+  {
+    "timestamp": "2025-06-27T18:24:00.804692",
+    "computer_info": {
+      "computer_name": "MSI",
+      "computer_id": "MSI_Windows",
+      "os_system": "Windows",
+      "os_release": "11",
+      "architecture": "64bit"
+    },
+    "cpu": {
+      "usage_percent": 13.0,
+      "frequency_mhz": 2400.0,
+      "cores_physical": 4,
+      "cores_logical": 8
+    },
+    "memory": {
+      "total_gb": 15.826095581054688,
+      "available_gb": 5.265655517578125,
+      "used_gb": 10.560440063476562,
+      "usage_percent": 66.7,
+      "swap_total_gb": 9.875,
+      "swap_used_gb": 0.10327911376953125,
+      "swap_percent": 1.0
+    },
+    "disk": {
+      "total_gb": 300.78026962280273,
+      "used_gb": 226.42677307128906,
+      "free_gb": 74.35349655151367,
+      "usage_percent": 75.27979589726493,
+      "read_bytes": 13323591680,
+      "write_bytes": 13441176064
+    },
+    "network": {
+      "bytes_sent": 42222617,
+      "bytes_received": 1685083763,
+      "packets_sent": 221104,
+      "packets_received": 1313970
+    },
+    "system": {
+      "process_count": 288,
+      "temperature_celsius": null,
+      "battery": {
+        "percent": 100,
+        "plugged": true,
+        "time_left": null
+      },
+      "uptime_hours": 0.7367428092824089
+    },
+    "security": {
+      "cached": true
+    }
+  }
+]
