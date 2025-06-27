@@ -1,0 +1,1902 @@
+[
+  {
+    "timestamp": "2025-06-27T02:03:08.777455",
+    "cpu": {
+      "usage_percent": 9.1,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.35445785522461,
+      "used_gb": 14.481521606445312,
+      "usage_percent": 45.5,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.570743560791,
+      "free_gb": 61.11577606201172,
+      "usage_percent": 90.21656876813758,
+      "read_bytes": 687255242752,
+      "write_bytes": 319509842432
+    },
+    "network": {
+      "bytes_sent": 1595156196,
+      "bytes_received": 66560601358,
+      "packets_sent": 18068703,
+      "packets_received": 27845251
+    },
+    "system": {
+      "process_count": 267,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449707.0007610321
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:10.966375",
+    "cpu": {
+      "usage_percent": 9.3,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.3499755859375,
+      "used_gb": 14.486003875732422,
+      "usage_percent": 45.5,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707473754883,
+      "free_gb": 61.11577224731445,
+      "usage_percent": 90.21656937879541,
+      "read_bytes": 687255275520,
+      "write_bytes": 319510395392
+    },
+    "network": {
+      "bytes_sent": 1595157825,
+      "bytes_received": 66560606757,
+      "packets_sent": 18068732,
+      "packets_received": 27845295
+    },
+    "system": {
+      "process_count": 267,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449709.02848887444
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:12.994547",
+    "cpu": {
+      "usage_percent": 27.3,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.24144744873047,
+      "used_gb": 14.594532012939453,
+      "usage_percent": 45.8,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707473754883,
+      "free_gb": 61.11577224731445,
+      "usage_percent": 90.21656937879541,
+      "read_bytes": 687255291904,
+      "write_bytes": 319511521792
+    },
+    "network": {
+      "bytes_sent": 1595163008,
+      "bytes_received": 66560629439,
+      "packets_sent": 18068778,
+      "packets_received": 27845391
+    },
+    "system": {
+      "process_count": 268,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449711.05811572075
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:15.024103",
+    "cpu": {
+      "usage_percent": 26.7,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.162097930908203,
+      "used_gb": 14.673881530761719,
+      "usage_percent": 46.1,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707473754883,
+      "free_gb": 61.11577224731445,
+      "usage_percent": 90.21656937879541,
+      "read_bytes": 687255324672,
+      "write_bytes": 319512910336
+    },
+    "network": {
+      "bytes_sent": 1595215495,
+      "bytes_received": 66563534104,
+      "packets_sent": 18069200,
+      "packets_received": 27847758
+    },
+    "system": {
+      "process_count": 269,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449713.0883142948
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:17.055335",
+    "cpu": {
+      "usage_percent": 18.3,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.168453216552734,
+      "used_gb": 14.667526245117188,
+      "usage_percent": 46.1,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707550048828,
+      "free_gb": 61.11576461791992,
+      "usage_percent": 90.21657060011111,
+      "read_bytes": 687255324672,
+      "write_bytes": 319513299456
+    },
+    "network": {
+      "bytes_sent": 1595231851,
+      "bytes_received": 66564365767,
+      "packets_sent": 18069339,
+      "packets_received": 27848445
+    },
+    "system": {
+      "process_count": 269,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449715.115285635
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:19.081493",
+    "cpu": {
+      "usage_percent": 23.5,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.164833068847656,
+      "used_gb": 14.671146392822266,
+      "usage_percent": 46.1,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707550048828,
+      "free_gb": 61.11576461791992,
+      "usage_percent": 90.21657060011111,
+      "read_bytes": 687255860224,
+      "write_bytes": 319514216960
+    },
+    "network": {
+      "bytes_sent": 1595245234,
+      "bytes_received": 66564376695,
+      "packets_sent": 18069396,
+      "packets_received": 27848515
+    },
+    "system": {
+      "process_count": 269,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449717.1509153843
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:21.117439",
+    "cpu": {
+      "usage_percent": 19.6,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.158851623535156,
+      "used_gb": 14.677127838134766,
+      "usage_percent": 46.1,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707550048828,
+      "free_gb": 61.11576461791992,
+      "usage_percent": 90.21657060011111,
+      "read_bytes": 687256192000,
+      "write_bytes": 319515150848
+    },
+    "network": {
+      "bytes_sent": 1595294629,
+      "bytes_received": 66564466867,
+      "packets_sent": 18069562,
+      "packets_received": 27848755
+    },
+    "system": {
+      "process_count": 269,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449719.1837451458
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:23.150878",
+    "cpu": {
+      "usage_percent": 22.0,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.223857879638672,
+      "used_gb": 14.61212158203125,
+      "usage_percent": 45.9,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707550048828,
+      "free_gb": 61.11576461791992,
+      "usage_percent": 90.21657060011111,
+      "read_bytes": 687266706432,
+      "write_bytes": 319516232192
+    },
+    "network": {
+      "bytes_sent": 1595305605,
+      "bytes_received": 66564487731,
+      "packets_sent": 18069639,
+      "packets_received": 27848899
+    },
+    "system": {
+      "process_count": 269,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449721.2096757889
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:25.176475",
+    "cpu": {
+      "usage_percent": 17.3,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.158733367919922,
+      "used_gb": 14.67724609375,
+      "usage_percent": 46.1,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707588195801,
+      "free_gb": 61.115760803222656,
+      "usage_percent": 90.21657121076898,
+      "read_bytes": 687272491520,
+      "write_bytes": 319516961280
+    },
+    "network": {
+      "bytes_sent": 1595317771,
+      "bytes_received": 66564513471,
+      "packets_sent": 18069719,
+      "packets_received": 27849017
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449723.2336974144
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:27.199130",
+    "cpu": {
+      "usage_percent": 24.8,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.146648406982422,
+      "used_gb": 14.6893310546875,
+      "usage_percent": 46.1,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707588195801,
+      "free_gb": 61.115760803222656,
+      "usage_percent": 90.21657121076898,
+      "read_bytes": 687272573440,
+      "write_bytes": 319517563392
+    },
+    "network": {
+      "bytes_sent": 1595343106,
+      "bytes_received": 66564555846,
+      "packets_sent": 18069818,
+      "packets_received": 27849226
+    },
+    "system": {
+      "process_count": 271,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449725.262540102
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:29.228782",
+    "cpu": {
+      "usage_percent": 22.8,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.137924194335938,
+      "used_gb": 14.698055267333984,
+      "usage_percent": 46.2,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707588195801,
+      "free_gb": 61.115760803222656,
+      "usage_percent": 90.21657121076898,
+      "read_bytes": 687272573440,
+      "write_bytes": 319518583296
+    },
+    "network": {
+      "bytes_sent": 1595356081,
+      "bytes_received": 66564572457,
+      "packets_sent": 18069875,
+      "packets_received": 27849378
+    },
+    "system": {
+      "process_count": 271,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449727.29143333435
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:31.258661",
+    "cpu": {
+      "usage_percent": 19.2,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.124897003173828,
+      "used_gb": 14.711082458496094,
+      "usage_percent": 46.2,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707588195801,
+      "free_gb": 61.115760803222656,
+      "usage_percent": 90.21657121076898,
+      "read_bytes": 687272589824,
+      "write_bytes": 319519103488
+    },
+    "network": {
+      "bytes_sent": 1595364641,
+      "bytes_received": 66564585582,
+      "packets_sent": 18069938,
+      "packets_received": 27849491
+    },
+    "system": {
+      "process_count": 271,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449729.33166742325
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:33.299465",
+    "cpu": {
+      "usage_percent": 18.5,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.12490463256836,
+      "used_gb": 14.711074829101562,
+      "usage_percent": 46.2,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707626342773,
+      "free_gb": 61.11575698852539,
+      "usage_percent": 90.21657182142681,
+      "read_bytes": 687272589824,
+      "write_bytes": 319519734272
+    },
+    "network": {
+      "bytes_sent": 1595409168,
+      "bytes_received": 66568099841,
+      "packets_sent": 18070416,
+      "packets_received": 27852336
+    },
+    "system": {
+      "process_count": 271,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449731.35416412354
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:35.321238",
+    "cpu": {
+      "usage_percent": 19.6,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.112133026123047,
+      "used_gb": 14.723846435546875,
+      "usage_percent": 46.2,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707626342773,
+      "free_gb": 61.11575698852539,
+      "usage_percent": 90.21657182142681,
+      "read_bytes": 687272622592,
+      "write_bytes": 319520324096
+    },
+    "network": {
+      "bytes_sent": 1595424634,
+      "bytes_received": 66568128508,
+      "packets_sent": 18070506,
+      "packets_received": 27852484
+    },
+    "system": {
+      "process_count": 271,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449733.382627964
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:37.348847",
+    "cpu": {
+      "usage_percent": 16.2,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.13214874267578,
+      "used_gb": 14.70383071899414,
+      "usage_percent": 46.2,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707626342773,
+      "free_gb": 61.11575698852539,
+      "usage_percent": 90.21657182142681,
+      "read_bytes": 687272622592,
+      "write_bytes": 319520709120
+    },
+    "network": {
+      "bytes_sent": 1595433543,
+      "bytes_received": 66568146263,
+      "packets_sent": 18070563,
+      "packets_received": 27852588
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449735.4149096012
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:39.382123",
+    "cpu": {
+      "usage_percent": 19.0,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.119400024414062,
+      "used_gb": 14.71657943725586,
+      "usage_percent": 46.2,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707626342773,
+      "free_gb": 61.11575698852539,
+      "usage_percent": 90.21657182142681,
+      "read_bytes": 687272622592,
+      "write_bytes": 319521155584
+    },
+    "network": {
+      "bytes_sent": 1595438586,
+      "bytes_received": 66568152853,
+      "packets_sent": 18070598,
+      "packets_received": 27852649
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449737.44212055206
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:41.408575",
+    "cpu": {
+      "usage_percent": 18.6,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.14178466796875,
+      "used_gb": 14.694194793701172,
+      "usage_percent": 46.2,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707664489746,
+      "free_gb": 61.115753173828125,
+      "usage_percent": 90.21657243208466,
+      "read_bytes": 687272622592,
+      "write_bytes": 319521430016
+    },
+    "network": {
+      "bytes_sent": 1595444990,
+      "bytes_received": 66568164961,
+      "packets_sent": 18070650,
+      "packets_received": 27852767
+    },
+    "system": {
+      "process_count": 272,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449739.47951459885
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:43.446405",
+    "cpu": {
+      "usage_percent": 16.5,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.154338836669922,
+      "used_gb": 14.681640625,
+      "usage_percent": 46.1,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707664489746,
+      "free_gb": 61.115753173828125,
+      "usage_percent": 90.21657243208466,
+      "read_bytes": 687272622592,
+      "write_bytes": 319521888768
+    },
+    "network": {
+      "bytes_sent": 1595449158,
+      "bytes_received": 66568174890,
+      "packets_sent": 18070681,
+      "packets_received": 27852822
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449741.51463103294
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:45.484311",
+    "cpu": {
+      "usage_percent": 11.8,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.147254943847656,
+      "used_gb": 14.688724517822266,
+      "usage_percent": 46.1,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707664489746,
+      "free_gb": 61.115753173828125,
+      "usage_percent": 90.21657243208466,
+      "read_bytes": 687272638976,
+      "write_bytes": 319522421248
+    },
+    "network": {
+      "bytes_sent": 1595457076,
+      "bytes_received": 66568181972,
+      "packets_sent": 18070719,
+      "packets_received": 27852879
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449743.5475282669
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:47.514324",
+    "cpu": {
+      "usage_percent": 15.1,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.140682220458984,
+      "used_gb": 14.695297241210938,
+      "usage_percent": 46.2,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707664489746,
+      "free_gb": 61.115753173828125,
+      "usage_percent": 90.21657243208466,
+      "read_bytes": 687272638976,
+      "write_bytes": 319522953728
+    },
+    "network": {
+      "bytes_sent": 1595462473,
+      "bytes_received": 66568190414,
+      "packets_sent": 18070759,
+      "packets_received": 27852949
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449745.5736205578
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:49.541305",
+    "cpu": {
+      "usage_percent": 17.6,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.144451141357422,
+      "used_gb": 14.6915283203125,
+      "usage_percent": 46.1,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707702636719,
+      "free_gb": 61.11574935913086,
+      "usage_percent": 90.21657304274251,
+      "read_bytes": 687272638976,
+      "write_bytes": 319523215872
+    },
+    "network": {
+      "bytes_sent": 1595467939,
+      "bytes_received": 66568201064,
+      "packets_sent": 18070800,
+      "packets_received": 27853059
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449747.6021666527
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:51.570210",
+    "cpu": {
+      "usage_percent": 13.2,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.141616821289062,
+      "used_gb": 14.69436264038086,
+      "usage_percent": 46.2,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707702636719,
+      "free_gb": 61.11574935913086,
+      "usage_percent": 90.21657304274251,
+      "read_bytes": 687272638976,
+      "write_bytes": 319523412480
+    },
+    "network": {
+      "bytes_sent": 1595511095,
+      "bytes_received": 66571537793,
+      "packets_sent": 18071236,
+      "packets_received": 27855736
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449749.6313660145
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:53.599876",
+    "cpu": {
+      "usage_percent": 10.4,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.139026641845703,
+      "used_gb": 14.696952819824219,
+      "usage_percent": 46.2,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707702636719,
+      "free_gb": 61.11574935913086,
+      "usage_percent": 90.21657304274251,
+      "read_bytes": 687272638976,
+      "write_bytes": 319523572224
+    },
+    "network": {
+      "bytes_sent": 1595513828,
+      "bytes_received": 66571544821,
+      "packets_sent": 18071266,
+      "packets_received": 27855805
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449751.6590590477
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:55.626468",
+    "cpu": {
+      "usage_percent": 16.3,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.158222198486328,
+      "used_gb": 14.677757263183594,
+      "usage_percent": 46.1,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707702636719,
+      "free_gb": 61.11574935913086,
+      "usage_percent": 90.21657304274251,
+      "read_bytes": 687272638976,
+      "write_bytes": 319523772928
+    },
+    "network": {
+      "bytes_sent": 1595529163,
+      "bytes_received": 66571566503,
+      "packets_sent": 18071330,
+      "packets_received": 27855966
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449753.6838672161
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:57.651186",
+    "cpu": {
+      "usage_percent": 16.2,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.183143615722656,
+      "used_gb": 14.652835845947266,
+      "usage_percent": 46.0,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707740783691,
+      "free_gb": 61.115745544433594,
+      "usage_percent": 90.21657365340036,
+      "read_bytes": 687272638976,
+      "write_bytes": 319524194816
+    },
+    "network": {
+      "bytes_sent": 1595534956,
+      "bytes_received": 66571578965,
+      "packets_sent": 18071381,
+      "packets_received": 27856075
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449755.70875167847
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:03:59.678220",
+    "cpu": {
+      "usage_percent": 18.5,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.17629623413086,
+      "used_gb": 14.659683227539062,
+      "usage_percent": 46.0,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707740783691,
+      "free_gb": 61.115745544433594,
+      "usage_percent": 90.21657365340036,
+      "read_bytes": 687272638976,
+      "write_bytes": 319524383232
+    },
+    "network": {
+      "bytes_sent": 1595540637,
+      "bytes_received": 66571592737,
+      "packets_sent": 18071429,
+      "packets_received": 27856170
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449757.7401163578
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:04:01.707942",
+    "cpu": {
+      "usage_percent": 18.5,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.198776245117188,
+      "used_gb": 14.637203216552734,
+      "usage_percent": 46.0,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707740783691,
+      "free_gb": 61.115745544433594,
+      "usage_percent": 90.21657365340036,
+      "read_bytes": 687272638976,
+      "write_bytes": 319524620800
+    },
+    "network": {
+      "bytes_sent": 1595546645,
+      "bytes_received": 66571600549,
+      "packets_sent": 18071469,
+      "packets_received": 27856240
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449759.7694683075
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:04:03.742546",
+    "cpu": {
+      "usage_percent": 16.4,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.188968658447266,
+      "used_gb": 14.647010803222656,
+      "usage_percent": 46.0,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707740783691,
+      "free_gb": 61.115745544433594,
+      "usage_percent": 90.21657365340036,
+      "read_bytes": 687273753088,
+      "write_bytes": 319530940928
+    },
+    "network": {
+      "bytes_sent": 1595550940,
+      "bytes_received": 66571609537,
+      "packets_sent": 18071517,
+      "packets_received": 27856331
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449761.79889035225
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:04:05.765808",
+    "cpu": {
+      "usage_percent": 13.2,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.181598663330078,
+      "used_gb": 14.654380798339844,
+      "usage_percent": 46.0,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707778930664,
+      "free_gb": 61.11574172973633,
+      "usage_percent": 90.21657426405821,
+      "read_bytes": 687273785856,
+      "write_bytes": 319531211264
+    },
+    "network": {
+      "bytes_sent": 1595558470,
+      "bytes_received": 66571621077,
+      "packets_sent": 18071566,
+      "packets_received": 27856442
+    },
+    "system": {
+      "process_count": 272,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449763.8265507221
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:04:07.793483",
+    "cpu": {
+      "usage_percent": 19.3,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.19005584716797,
+      "used_gb": 14.645923614501953,
+      "usage_percent": 46.0,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707778930664,
+      "free_gb": 61.11574172973633,
+      "usage_percent": 90.21657426405821,
+      "read_bytes": 687273785856,
+      "write_bytes": 319531915776
+    },
+    "network": {
+      "bytes_sent": 1595603594,
+      "bytes_received": 66575629648,
+      "packets_sent": 18072071,
+      "packets_received": 27859612
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449765.85170149803
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:04:38.683931",
+    "cpu": {
+      "usage_percent": 15.2,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.256607055664062,
+      "used_gb": 14.57937240600586,
+      "usage_percent": 45.8,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707817077637,
+      "free_gb": 61.11573791503906,
+      "usage_percent": 90.21657487471606,
+      "read_bytes": 687274021376,
+      "write_bytes": 319540597248
+    },
+    "network": {
+      "bytes_sent": 1595823625,
+      "bytes_received": 66579979021,
+      "packets_sent": 18073422,
+      "packets_received": 27864223
+    },
+    "system": {
+      "process_count": 268,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449796.7398791313
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:05:09.706860",
+    "cpu": {
+      "usage_percent": 6.2,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.331958770751953,
+      "used_gb": 14.504020690917969,
+      "usage_percent": 45.6,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707817077637,
+      "free_gb": 61.11573791503906,
+      "usage_percent": 90.21657487471606,
+      "read_bytes": 687274512896,
+      "write_bytes": 319549719040
+    },
+    "network": {
+      "bytes_sent": 1595934919,
+      "bytes_received": 66586548970,
+      "packets_sent": 18074728,
+      "packets_received": 27870424
+    },
+    "system": {
+      "process_count": 267,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449827.7651605606
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:05:40.734871",
+    "cpu": {
+      "usage_percent": 6.5,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.345684051513672,
+      "used_gb": 14.49029541015625,
+      "usage_percent": 45.5,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707855224609,
+      "free_gb": 61.1157341003418,
+      "usage_percent": 90.21657548537391,
+      "read_bytes": 687277067264,
+      "write_bytes": 319557292544
+    },
+    "network": {
+      "bytes_sent": 1596094163,
+      "bytes_received": 66594537414,
+      "packets_sent": 18076397,
+      "packets_received": 27877739
+    },
+    "system": {
+      "process_count": 269,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449858.7948241234
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:06:11.762285",
+    "cpu": {
+      "usage_percent": 9.9,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.331584930419922,
+      "used_gb": 14.50439453125,
+      "usage_percent": 45.6,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707855224609,
+      "free_gb": 61.1157341003418,
+      "usage_percent": 90.21657548537391,
+      "read_bytes": 687277132800,
+      "write_bytes": 319562732032
+    },
+    "network": {
+      "bytes_sent": 1596207865,
+      "bytes_received": 66601494682,
+      "packets_sent": 18077748,
+      "packets_received": 27884048
+    },
+    "system": {
+      "process_count": 268,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449889.82444667816
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:06:42.794808",
+    "cpu": {
+      "usage_percent": 12.0,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.31032943725586,
+      "used_gb": 14.525650024414062,
+      "usage_percent": 45.6,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707855224609,
+      "free_gb": 61.1157341003418,
+      "usage_percent": 90.21657548537391,
+      "read_bytes": 687277296640,
+      "write_bytes": 319568699904
+    },
+    "network": {
+      "bytes_sent": 1596671785,
+      "bytes_received": 66608677637,
+      "packets_sent": 18079344,
+      "packets_received": 27890819
+    },
+    "system": {
+      "process_count": 267,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449920.85656523705
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:07:13.824965",
+    "cpu": {
+      "usage_percent": 35.3,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.141632080078125,
+      "used_gb": 14.694347381591797,
+      "usage_percent": 46.2,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707855224609,
+      "free_gb": 61.1157341003418,
+      "usage_percent": 90.21657548537391,
+      "read_bytes": 687277712384,
+      "write_bytes": 319579974144
+    },
+    "network": {
+      "bytes_sent": 1597088106,
+      "bytes_received": 66612774729,
+      "packets_sent": 18080997,
+      "packets_received": 27895358
+    },
+    "system": {
+      "process_count": 268,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449951.88492560387
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:07:44.854878",
+    "cpu": {
+      "usage_percent": 38.1,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.107646942138672,
+      "used_gb": 14.72833251953125,
+      "usage_percent": 46.3,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707893371582,
+      "free_gb": 61.11573028564453,
+      "usage_percent": 90.21657609603176,
+      "read_bytes": 687278895616,
+      "write_bytes": 319601671168
+    },
+    "network": {
+      "bytes_sent": 1597399843,
+      "bytes_received": 66620419350,
+      "packets_sent": 18083408,
+      "packets_received": 27903294
+    },
+    "system": {
+      "process_count": 266,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 449982.91943097115
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:08:15.889008",
+    "cpu": {
+      "usage_percent": 21.6,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.178672790527344,
+      "used_gb": 14.657306671142578,
+      "usage_percent": 46.0,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707893371582,
+      "free_gb": 61.11573028564453,
+      "usage_percent": 90.21657609603176,
+      "read_bytes": 687279044608,
+      "write_bytes": 319616532992
+    },
+    "network": {
+      "bytes_sent": 1597648118,
+      "bytes_received": 66627129820,
+      "packets_sent": 18085247,
+      "packets_received": 27910084
+    },
+    "system": {
+      "process_count": 269,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450013.94853949547
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:08:46.920336",
+    "cpu": {
+      "usage_percent": 12.6,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.0687255859375,
+      "used_gb": 14.767253875732422,
+      "usage_percent": 46.4,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707893371582,
+      "free_gb": 61.11573028564453,
+      "usage_percent": 90.21657609603176,
+      "read_bytes": 687279240192,
+      "write_bytes": 319628086784
+    },
+    "network": {
+      "bytes_sent": 1597985427,
+      "bytes_received": 66634552790,
+      "packets_sent": 18087347,
+      "packets_received": 27917652
+    },
+    "system": {
+      "process_count": 270,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450044.98031163216
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:09:17.947717",
+    "cpu": {
+      "usage_percent": 34.0,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.080020904541016,
+      "used_gb": 14.755958557128906,
+      "usage_percent": 46.3,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707893371582,
+      "free_gb": 61.11573028564453,
+      "usage_percent": 90.21657609603176,
+      "read_bytes": 687280439808,
+      "write_bytes": 319645858816
+    },
+    "network": {
+      "bytes_sent": 1598281875,
+      "bytes_received": 66641860260,
+      "packets_sent": 18089420,
+      "packets_received": 27925150
+    },
+    "system": {
+      "process_count": 271,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450076.00463724136
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:09:48.975252",
+    "cpu": {
+      "usage_percent": 21.3,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.173938751220703,
+      "used_gb": 14.662040710449219,
+      "usage_percent": 46.1,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707931518555,
+      "free_gb": 61.115726470947266,
+      "usage_percent": 90.21657670668961,
+      "read_bytes": 687280488960,
+      "write_bytes": 319654415360
+    },
+    "network": {
+      "bytes_sent": 1598465192,
+      "bytes_received": 66649164520,
+      "packets_sent": 18091358,
+      "packets_received": 27932435
+    },
+    "system": {
+      "process_count": 267,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450107.03244686127
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:10:20.001975",
+    "cpu": {
+      "usage_percent": 10.7,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.214141845703125,
+      "used_gb": 14.621837615966797,
+      "usage_percent": 45.9,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08191299438476562,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707931518555,
+      "free_gb": 61.115726470947266,
+      "usage_percent": 90.21657670668961,
+      "read_bytes": 687281312256,
+      "write_bytes": 319663426560
+    },
+    "network": {
+      "bytes_sent": 1598588664,
+      "bytes_received": 66653226883,
+      "packets_sent": 18092600,
+      "packets_received": 27937027
+    },
+    "system": {
+      "process_count": 266,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450138.06175017357
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:10:51.031121",
+    "cpu": {
+      "usage_percent": 12.1,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 17.894847869873047,
+      "used_gb": 13.941131591796875,
+      "usage_percent": 43.8,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08122634887695312,
+      "swap_percent": 4.1
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707931518555,
+      "free_gb": 61.115726470947266,
+      "usage_percent": 90.21657670668961,
+      "read_bytes": 687306652160,
+      "write_bytes": 319683025920
+    },
+    "network": {
+      "bytes_sent": 1599237038,
+      "bytes_received": 66663324575,
+      "packets_sent": 18095353,
+      "packets_received": 27946693
+    },
+    "system": {
+      "process_count": 264,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450169.08581233025
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:11:22.053330",
+    "cpu": {
+      "usage_percent": 3.6,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 18.887130737304688,
+      "used_gb": 12.948848724365234,
+      "usage_percent": 40.7,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08061599731445312,
+      "swap_percent": 4.0
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707931518555,
+      "free_gb": 61.115726470947266,
+      "usage_percent": 90.21657670668961,
+      "read_bytes": 687306816000,
+      "write_bytes": 319689878528
+    },
+    "network": {
+      "bytes_sent": 1599590895,
+      "bytes_received": 66663491085,
+      "packets_sent": 18095947,
+      "packets_received": 27947828
+    },
+    "system": {
+      "process_count": 263,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450200.1103785038
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:11:53.081645",
+    "cpu": {
+      "usage_percent": 3.1,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 18.886600494384766,
+      "used_gb": 12.949378967285156,
+      "usage_percent": 40.7,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08061599731445312,
+      "swap_percent": 4.0
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707969665527,
+      "free_gb": 61.11572265625,
+      "usage_percent": 90.21657731734746,
+      "read_bytes": 687324094464,
+      "write_bytes": 319697906688
+    },
+    "network": {
+      "bytes_sent": 1599675151,
+      "bytes_received": 66663840687,
+      "packets_sent": 18096695,
+      "packets_received": 27949158
+    },
+    "system": {
+      "process_count": 263,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450231.144756794
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:12:24.115179",
+    "cpu": {
+      "usage_percent": 3.2,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 18.938419342041016,
+      "used_gb": 12.897560119628906,
+      "usage_percent": 40.5,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08061599731445312,
+      "swap_percent": 4.0
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707969665527,
+      "free_gb": 61.11572265625,
+      "usage_percent": 90.21657731734746,
+      "read_bytes": 687324717056,
+      "write_bytes": 319706704896
+    },
+    "network": {
+      "bytes_sent": 1599718468,
+      "bytes_received": 66663972913,
+      "packets_sent": 18097288,
+      "packets_received": 27950195
+    },
+    "system": {
+      "process_count": 262,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450262.1807940006
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:12:55.149512",
+    "cpu": {
+      "usage_percent": 3.8,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 18.871543884277344,
+      "used_gb": 12.964435577392578,
+      "usage_percent": 40.7,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08061599731445312,
+      "swap_percent": 4.0
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707969665527,
+      "free_gb": 61.11572265625,
+      "usage_percent": 90.21657731734746,
+      "read_bytes": 687324733440,
+      "write_bytes": 319712807936
+    },
+    "network": {
+      "bytes_sent": 1599789459,
+      "bytes_received": 66664285857,
+      "packets_sent": 18097976,
+      "packets_received": 27951380
+    },
+    "system": {
+      "process_count": 262,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450293.2092952728
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:13:26.179551",
+    "cpu": {
+      "usage_percent": 7.3,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 18.829845428466797,
+      "used_gb": 13.006134033203125,
+      "usage_percent": 40.9,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08061599731445312,
+      "swap_percent": 4.0
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.5707969665527,
+      "free_gb": 61.11572265625,
+      "usage_percent": 90.21657731734746,
+      "read_bytes": 687325341696,
+      "write_bytes": 319722855424
+    },
+    "network": {
+      "bytes_sent": 1599844000,
+      "bytes_received": 66664434369,
+      "packets_sent": 18098535,
+      "packets_received": 27952336
+    },
+    "system": {
+      "process_count": 265,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450324.2352409363
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:13:57.205168",
+    "cpu": {
+      "usage_percent": 4.2,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 18.854907989501953,
+      "used_gb": 12.981071472167969,
+      "usage_percent": 40.8,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08061599731445312,
+      "swap_percent": 4.0
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.57080078125,
+      "free_gb": 61.115718841552734,
+      "usage_percent": 90.21657792800531,
+      "read_bytes": 687325419520,
+      "write_bytes": 319728823296
+    },
+    "network": {
+      "bytes_sent": 1599898599,
+      "bytes_received": 66664582195,
+      "packets_sent": 18099171,
+      "packets_received": 27953508
+    },
+    "system": {
+      "process_count": 266,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450355.26815342903
+    }
+  },
+  {
+    "timestamp": "2025-06-27T02:14:28.240065",
+    "cpu": {
+      "usage_percent": 5.2,
+      "frequency_mhz": 2500.0,
+      "cores_physical": 6,
+      "cores_logical": 12
+    },
+    "memory": {
+      "total_gb": 31.835979461669922,
+      "available_gb": 18.866600036621094,
+      "used_gb": 12.969379425048828,
+      "usage_percent": 40.7,
+      "swap_total_gb": 2.0,
+      "swap_used_gb": 0.08061599731445312,
+      "swap_percent": 4.0
+    },
+    "disk": {
+      "total_gb": 624.6865196228027,
+      "used_gb": 563.57080078125,
+      "free_gb": 61.115718841552734,
+      "usage_percent": 90.21657792800531,
+      "read_bytes": 687326861312,
+      "write_bytes": 319744240640
+    },
+    "network": {
+      "bytes_sent": 1599938100,
+      "bytes_received": 66664708600,
+      "packets_sent": 18099719,
+      "packets_received": 27954509
+    },
+    "system": {
+      "process_count": 265,
+      "temperature_celsius": null,
+      "battery": null,
+      "uptime_hours": 450386.2949178219
+    }
+  }
+]
