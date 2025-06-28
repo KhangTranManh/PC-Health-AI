@@ -42,10 +42,8 @@ class SecurityEnhancedSystemMonitor:
         """Get a unique identifier for this computer"""
         try:
             hostname = socket.gethostname()
-            os_name = platform.system()
             clean_name = hostname.replace(" ", "_").replace("-", "_")
-            computer_id = f"{clean_name}_{os_name}"
-            return computer_id
+            return clean_name
         except Exception as e:
             print(f"⚠️  Error getting computer name: {e}")
             return f"Unknown_Computer_{datetime.datetime.now().strftime('%Y%m%d')}"

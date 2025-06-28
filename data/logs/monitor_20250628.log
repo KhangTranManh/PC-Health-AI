@@ -1,0 +1,23 @@
+[2025-06-28 13:53:51] [INFO] Background sync started
+[2025-06-28 13:55:12] [INFO] Background sync started
+[2025-06-28 13:56:31] [INFO] Background sync started
+[2025-06-28 13:58:10] [INFO] Background sync started
+[2025-06-28 14:04:31] [INFO] Background sync started
+[2025-06-28 14:04:42] [INFO] Starting data collection for 60 minutes
+[2025-06-28 14:35:31] [INFO] Data package created: security_data_LAPTOP_7NF3NNFS_Windows_26eb5b_20250628_143531.zip (0.0MB)
+[2025-06-28 14:35:34] [INFO] Data sent via email to kxctran@gmail.com
+[2025-06-28 15:05:28] [INFO] Data saved to E:\SecurityMonitor_Portable\data\monitor_data_LAPTOP_7NF3NNFS_Windows_26eb5b_20250628_150528.csv
+[2025-06-28 15:05:28] [INFO] Data package created: security_data_LAPTOP_7NF3NNFS_Windows_26eb5b_20250628_150528.zip (0.0MB)
+[2025-06-28 15:05:31] [INFO] Data sent via email to kxctran@gmail.com
+[2025-06-28 15:05:31] [INFO] Data collection complete: 0 samples
+[2025-06-28 16:26:00] [INFO] Background sync started
+[2025-06-28 16:26:03] [INFO] Starting data collection for 60 minutes
+[2025-06-28 16:26:10] [INFO] Background sync started
+[2025-06-28 16:26:18] [INFO] Starting data collection for 120 minutes
+[2025-06-28 16:57:11] [INFO] Data package created: security_data_LAPTOP_7NF3NNFS_Windows_26eb5b_20250628_165711.zip (0.0MB)
+[2025-06-28 16:57:14] [INFO] Data sent via email to kxctran@gmail.com
+[2025-06-28 17:27:14] [INFO] Data package created: security_data_LAPTOP_7NF3NNFS_Windows_26eb5b_20250628_172714.zip (0.0MB)
+[2025-06-28 17:27:17] [INFO] Data sent via email to kxctran@gmail.com
+[2025-06-28 17:57:17] [INFO] Data package created: security_data_LAPTOP_7NF3NNFS_Windows_26eb5b_20250628_175717.zip (0.0MB)
+[2025-06-28 17:57:21] [INFO] Data sent via email to kxctran@gmail.com
+[2025-06-28 18:27:09] [INFO] Data saved to E:\SecurityMonitor_Portable\data\monitor_data_LAPTOP_7NF3NNFS_Windows_26eb5b_20250628_182709.csv

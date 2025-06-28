@@ -1,0 +1,29 @@
+{
+  "auto_sync_enabled": true,
+  "sync_interval_minutes": 30,
+  "sync_method": "email",
+  "email_settings": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "*** CONFIGURED ***",
+    "sender_password": "*** CONFIGURED ***",
+    "recipient_email": "*** CONFIGURED ***",
+    "subject_prefix": "[Security Monitor Data]"
+  },
+  "webhook_settings": {
+    "url": "",
+    "headers": {},
+    "method": "POST"
+  },
+  "ftp_settings": {
+    "server": "",
+    "username": "",
+    "password": "",
+    "directory": "/"
+  },
+  "collection_settings": {
+    "interval_seconds": 60,
+    "include_charts": false,
+    "max_file_size_mb": 10
+  }
+}
